@@ -3,8 +3,6 @@ import s from './Preloader.module.css'
 
 export const Preloader = () => {
   return <div className={s.preloaderPage}>
-    {/*<div className={s.preloaderWrapper}>*/}
       <div className={s.preloader}>Loading...</div>
-    {/*</div>*/}
   </div>
 }
